@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+     {% load static %}
+</head>
+<body>
+<h1>Welcome to PFSD project</h1>
+<img src="{% static '/netflix.png' %}" alt="My image" height="300px" width="700px"/>
+<img src="{% static '/2netflix2.png' %}" alt="My image" height="300px" width="700px"/>
+<img src="{% static '/3netflix3.png' %}" alt="My image" height="300px" width="700px"/>
+<img src="{% static '/1netflix1.png' %}" alt="My image" height="300px" width="700px"/>
+
+</body>
+</html>
